@@ -532,7 +532,7 @@ img {
 }
 
 .footer-icons-conteiner {
-    margin-right: 80px;
+    margin-right: auto;
 }
 
 .footer-text-icons {
@@ -642,6 +642,10 @@ img {
 
 }
 
+.footer-form-button:hover {
+    background-color: #31d0aa;
+}
+
 
 /* modal */
 .modal-overlay {
@@ -661,11 +665,11 @@ img {
     visibility: hidden;
 }
 
-.modal-overlay.is-open {
+/* .modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-}
+} */
 
 .modal {
     position: absolute;
@@ -836,6 +840,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 
 
 }
@@ -868,4 +873,10 @@ input:checked+label>span {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+}
+
+.form-button:hover,
+.form-button:focus {
+    background-color: #404BBF;
 }
