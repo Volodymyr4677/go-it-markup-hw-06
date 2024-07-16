@@ -24,8 +24,6 @@
 
                 <a class="logo-web" href="./index.html">Web<span class="logo-studio">Studio</span></a>
 
-
-
                 <ul class="menu">
                     <li>
                         <a class="link current" href="./index.html">Studio</a>
@@ -60,8 +58,7 @@
             <div class="container">
                 <h1 class="button-title"> Effective Solutions
                     for Your Business</h1>
-
-                <button type="submit" class="button-text">Order Service</button>
+                <button type="submit" class="button-text" data-modal-open>Order Service</button>
             </div>
         </section>
 
@@ -90,7 +87,8 @@
                             </svg>
                         </div>
                         <h3 class="feature-title"> Punctuality</h3>
-                        <p class="feature-text">Bring the key message to the brand's audience for the best price within
+                        <p class="feature-text">Bring the key message to the brand's audience for the best price
+                            within
                             the
                             shortest possible
                             time.
@@ -103,7 +101,8 @@
                             </svg>
                         </div>
                         <h3 class="feature-title">Diligence</h3>
-                        <p class="feature-text">Research and confirm brands that present the strongest digital growth
+                        <p class="feature-text">Research and confirm brands that present the strongest digital
+                            growth
                             opportunities and minimize
                             risk.
                         </p>
@@ -115,7 +114,8 @@
                             </svg>
                         </div>
                         <h3 class="feature-title">Technologies</h3>
-                        <p class="feature-text">Design practice focused on digital experiences. We bring forth a deep
+                        <p class="feature-text">Design practice focused on digital experiences. We bring forth a
+                            deep
                             passion
                             for
                             problem-solving.
@@ -319,7 +319,8 @@
                     <li class="portfolio-item">
                         <div class="portfolio-images">
                             <img src="./images/img-4.jpg" alt="Projeck Card 2" width="360" />
-                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts · Task
+                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts ·
+                                Task
                                 Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -336,7 +337,8 @@
                     <li class="portfolio-item">
                         <div class="portfolio-images">
                             <img src="./images/img-3.jpg" alt="Projeck Card 3" width="360" />
-                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts · Task
+                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts ·
+                                Task
                                 Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -350,7 +352,8 @@
                     <li class="portfolio-item">
                         <div class="portfolio-images">
                             <img src="./images/img-2.jpg" alt="Projeck Card 4" width="360" />
-                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts · Task
+                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts ·
+                                Task
                                 Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -363,7 +366,8 @@
                     <li class="portfolio-item">
                         <div class="portfolio-images">
                             <img src="./images/img-1.jpg" alt="Projeck Card 5" width="360" />
-                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts · Task
+                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts ·
+                                Task
                                 Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -376,7 +380,8 @@
                     <li class="portfolio-item">
                         <div class="portfolio-images">
                             <img src="./images/img-0.jpg" alt="Projeck Card 6" width="360" />
-                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts · Task
+                            <p class="portfolio-images-text">14 Stylish and User-Friendly App Design Concepts ·
+                                Task
                                 Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -457,9 +462,10 @@
     </footer>
 
     <!-- modal -->
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay is-open" data-modal>
         <div class="modal">
-            <button type="button" class="modal-button-exit"><svg class="modal-icons-svg" width="8" height="8">
+            <button type="button" class="modal-button-exit" data-modal-close><svg class="modal-icons-svg" width="8"
+                    height="8">
                     <use href="./images/icons-modal.svg#icon-exit"></use>
                 </svg></button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
@@ -516,6 +522,9 @@
             </form>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
+
+
 
 </html>

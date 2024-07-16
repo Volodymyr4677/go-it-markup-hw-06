@@ -42,6 +42,7 @@ h6 {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 
@@ -665,11 +666,11 @@ img {
     visibility: hidden;
 }
 
-/* .modal-overlay.is-open {
+.modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-} */
+}
 
 .modal {
     position: absolute;
