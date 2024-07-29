@@ -1042,12 +1042,52 @@ button {
     margin-left: 16px;
 }
 
-/* @media screen (min-width: 768px) {
-    
-} */
-/* @media screen (min-width: 1158px) {
-    
-} */
+@media screen (min-width: 768px) {
+    .footer-container {
+        gap: 72px 24px;
+        margin-left: 108px;
+    }
+
+    .footer-logo-container {
+        text-align: left;
+    }
+
+    .footer-icons-conteiner {
+        margin: 0;
+    }
+
+    .footer-text-icons {
+        text-align: left;
+    }
+
+    .footer-form-container {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .footer-form-text {
+        text-align: left;
+    }
+}
+
+
+@media screen (min-width: 1158px) {
+    .footer-container {
+        gap: none;
+        margin: 0 auto;
+    }
+
+    .footer-icons-conteiner {
+        margin-left: 120px;
+    }
+
+    .footer-form-container {
+        margin-left: auto;
+    }
+}
+
+
 /* .modal-overlay */
 .modal-overlay {
     position: fixed;
@@ -1072,7 +1112,7 @@ button {
     visibility: visible;
 }
 
-/* .modal {
+.modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1085,7 +1125,7 @@ button {
     background: #fcfcfc;
     padding: 72px 16px 24px 16px;
 
-} */
+}
 
 .modal-button-exit {
     position: absolute;
