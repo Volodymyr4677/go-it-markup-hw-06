@@ -1276,7 +1276,6 @@ button {
 
 
 .checkbox-container {
-    flex-shrink: 0;
     margin-bottom: 24px;
 
 }
@@ -1309,7 +1308,7 @@ button {
 
 }
 
-input:checked+label>span {
+input:checked+label>span.checkbox-span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;
