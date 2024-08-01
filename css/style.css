@@ -1295,6 +1295,7 @@ button {
 
 
 .checkbox-container {
+
     margin-bottom: 24px;
 
 }
@@ -1304,6 +1305,7 @@ button {
     display: flex;
     align-items: center;
     overflow-y: center;
+
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -1314,6 +1316,7 @@ button {
 .checkbox-comment {}
 
 .checkbox-span {
+    flex-shrink: 0;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1332,6 +1335,7 @@ input:checked+label>span.checkbox-span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;
+
 }
 
 .checkbox-link {
